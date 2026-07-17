@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.ВКМ_НачисленияЗарплаты.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_НачислениеПремии.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_ГрафикОтпусков.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>DataProcessor.ВКМ_ЗаполнениеГрафика.StandardCommand.Open</commands>
+      <commands>DataProcessor.ВКМ_МассовоеСозданиеАктов.StandardCommand.Open</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>
